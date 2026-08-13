@@ -11,15 +11,15 @@
 
 /*reset browser defaults*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;                         /* Remove default margin */
+    padding: 0;                        /* Remove default padding */
+    box-sizing: border-box;            /* Use border-box sizing for easier layout management */
 }
 
 body {
-    background-color: var(--bg-dark);
-    color: var(--text-light);
-    font-family:'playfair display', serif;
-    line-height: 1.6;
-    overflow-x: hidden;
+    background-color: var(--bg-dark);      /* Set the background color to dark */
+    color: var(--text-light);              /* Set the text color to light for readability */
+    font-family:'playfair display', serif; /* Use a serif font for a classic look */
+    line-height: 1.6;                       /* Set line height for better readability */
+    overflow-x: hidden;                     /* Prevent horizontal scrolling */
 }
