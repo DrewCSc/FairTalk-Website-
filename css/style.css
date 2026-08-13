@@ -2,8 +2,16 @@
 /* Color Palette */
 :root {
     --bg-dark: #12161A;             /* Dark background for the website */
-    --bg-card: #89CFF0;           /* Darker background for cards */
+    --bg-card: #89CFF0;             /* light blue background for cards */
     --accent-navy blue: #1E3A8A;      /* Navy blue accent color for buttons and highlights */
     --accent-light blue: #3B82F6;     /* Lighter blue accent color for hover effects */
     --text-light: #f5f7fa;            /* white text color for readability */
     --text-muted:#A0AEC0;             /* Softer text color for less emphasis */
+}
+
+/*reset browser defaults*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
