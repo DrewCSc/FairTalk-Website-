@@ -15,3 +15,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family:'playfair display', serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
