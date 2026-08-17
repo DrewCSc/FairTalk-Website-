@@ -5,7 +5,7 @@
     --bg-card: #89CFF0;             /* light blue background for cards */
     --accent-navy-blue: #1E3A8A;    /* Navy blue accent color for buttons and highlights */
     --accent-light-blue: #3B82F6;   /* Lighter blue accent color for hover effects */
-    --text-light: Black;            /* Black text color for readability */
+    --text-light: Black;          /* Black text color for readability */
     --text-muted: #A0AEC0;          /* Softer text color for less emphasis */
     --baby-blue: #89CFF0;           /* named baby blue for convenience */
 }
@@ -40,13 +40,3 @@ strong {
     color: var(--accent-navy-blue);   /* Use navy blue for strong text */
 }
 
-.Flex-container {
-    display: flexbox;
-}
-
-.Flex-container {
-    background-color: #dbe2ed;
-    width: 80px;
-    height: 80px; 
-    border-color: #1E3A8A;
-}
