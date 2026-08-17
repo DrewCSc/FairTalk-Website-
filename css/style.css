@@ -1,5 +1,22 @@
 /* CSS Styles for FairTalk Website */
-.FairTalk {
-    text-align: start;
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+}
+strong {
+    font-weight: bold;
+    color:blue;
+    font-style: italic;
 }
