@@ -34,10 +34,14 @@ body {
 nav {
     background-color: #d4d4fa; /* Dark background color for the navigation bar */
     padding: 10px;
+    position: sticky;
+    top: 0;
 
 }
 .flex-container ul {
     display: flex;
    list-style-type: none;
     gap: 20px;
+    flex: 1;
+    background:
 }
