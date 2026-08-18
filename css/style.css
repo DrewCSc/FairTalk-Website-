@@ -12,6 +12,15 @@ h6 {
     spacing:2px;
 }
 
+img {
+    width: 25px;px;
+    height: 25px;px;
+}
+button {
+    background-color: #f8f8fa;
+    border: #7979e4;
+}
+
 p {
     font-family: 'Playfair Display', serif;     /* CSS class for paragraph text */
     font-size: 16px;
@@ -36,11 +45,13 @@ body {
     padding: 0.5em;
 }
 nav {
-    background-color: #d4d4fa; /* Dark background color for the navigation bar */
+    background-color: #d4d4fa;      /*  background color for the navigation bar */
     padding: 10px;
     position: sticky;
     top: 0;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /*flex containers*/
 
@@ -51,9 +62,14 @@ nav {
     flex: 1;
 }
 .Flex-container {
-    text-align: left;
+    text-align: left;           /*container for "Finding commong fround */
     width: 30px;
 }
 .container {
-    width:400px
+    width:400px                 /*container for paragraph */
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
