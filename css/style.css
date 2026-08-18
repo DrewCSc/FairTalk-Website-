@@ -75,11 +75,20 @@ nav {
     width: 30px;
 }
 .container {
-    width:400px                 /*container for paragraph */
+    width: 400px;                 /*container for paragraph */
 }
 .brand {
     display: flex;
     align-items: center;        /*container for logo in nav bar */
     gap: 10px;
 }
+.hero img {
+    align-items: center;
+    width: 500px;
+    height:500px;
+    margin-left: 260px;
+    margin-top: -600px;
+    margin-bottom: 0px;
+    justify-content: space-between;
 
+}  
