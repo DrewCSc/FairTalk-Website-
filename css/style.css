@@ -11,6 +11,15 @@ h6 {
     font-size: 14px;
     letter-spacing: 2px;
 }
+nav a:link,
+nav a:visited {
+    color: #333;                /*Making the nav links black*/
+    text-decoration: none;
+}
+nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
 
 img {
     width: 25px;
@@ -73,8 +82,4 @@ nav {
     align-items: center;        /*container for logo in nav bar */
     gap: 10px;
 }
-nav a:link,
-nav a:visited {
-    color: #333;                /*Making the nav links black*/
-    text-decoration: none;
-}
+
