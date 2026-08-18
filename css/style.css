@@ -71,7 +71,7 @@ nav {
     flex: 1;
 }
 .Flex-container {
-    text-align: left;           /*container for "Finding commong fround */
+    text-align: left;           /*container for "Finding common ground */
     width: 30px;
 }
 .container {
@@ -83,7 +83,7 @@ nav {
     gap: 10px;
 }
 .hero img {
-    align-items: center;
+    align-items: center;        /*image of growing tree on homepage*/
     width: 500px;
     height:500px;
     margin-left: 260px;

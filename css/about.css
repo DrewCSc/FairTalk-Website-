@@ -1,0 +1,35 @@
+/* about style sheet*/
+
+/*navigation bar*/
+
+nav a:link,
+nav a:visited {
+    color: #333;                /*Making the nav links black*/
+    text-decoration: none;
+}
+nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+nav {
+    background-color: #d4d4fa;      /*  background color for the navigation bar */
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*nav bar flex containers*/
+
+.flex-container ul {
+    display: flex;
+   list-style-type: none;       /*flex container for the nav bar*/
+    gap: 20px;
+    flex: 1;
+}
+.brand {
+    display: flex;
+    align-items: center;        /*container for logo in nav bar */
+    gap: 10px;
+}
