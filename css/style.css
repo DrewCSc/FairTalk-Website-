@@ -2,7 +2,7 @@
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 44px;                            /* CSS class for heading text */
+    font-size: 80px;                            /* CSS class for heading text */
     color: #333;
     margin-bottom: 70px;                       /* Increased margin for spacing below the heading */
 }
@@ -32,7 +32,7 @@ button {
 
 p {
     font-family: 'Playfair Display', serif;     /* CSS class for paragraph text */
-    font-size: 16px;
+    font-size: 22px;
     line-height: 2;
     color: #333;
     margin-bottom: 20px;
@@ -86,9 +86,12 @@ nav {
     align-items: center;        /*image of growing tree on homepage*/
     width: 500px;
     height:500px;
-    margin-left: 260px;
+    margin-left: 500px;
     margin-top: -600px;
     margin-bottom: 0px;
     justify-content: space-between;
-
+    margin-right: 40px;
 }  
+.footer p {
+    font-size: 10px;
+}
