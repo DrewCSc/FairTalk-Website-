@@ -17,13 +17,13 @@ nav a:visited {
     text-decoration: none;
 }
 nav a:hover {
-    color: #000;
+    color: #000;                    /*hover affect, with underline in nav bar */
     text-decoration: underline;
 }
 
 img {
     width: 25px;
-    height: 25px;
+    height: 25px;                       /*image in nav bar logo */
 }
 button {
     background-color: #f8f8fa;          /*book now button*/

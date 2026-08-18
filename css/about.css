@@ -20,6 +20,15 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+button {
+    background-color: #f8f8fa;          /*book now button*/
+    border: #7979e4;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
 /*nav bar flex containers*/
 
 .flex-container ul {
