@@ -29,6 +29,9 @@ img {
     width: 25px;
     height: 25px;
 }
+strong {
+    color: #7979e4;         /*for strong text in the header*/
+}
 /*nav bar flex containers*/
 
 .flex-container ul {
@@ -41,4 +44,28 @@ img {
     display: flex;
     align-items: center;        /*container for logo in nav bar */
     gap: 10px;
+}
+.hero img {
+    margin-left: 20px;
+    margin-top: -100px;               /*hero image on about page*/
+    height: 500px;
+    width: 500px;
+}
+.flex-container h1 {                  /*flex container for catchphrase*/
+    margin-left: 400px;
+    margin-top: 70px;
+    word-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    height: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.flex-container h2 {
+    margin-left: 600px;
+    margin-top: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 1px;
+    font-style:italic;
+    font-size: 50px;
 }
