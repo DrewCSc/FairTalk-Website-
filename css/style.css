@@ -40,7 +40,7 @@ p {
 }
 strong {                                    /* CSS class for bold and italic text */
     font-weight: bold;
-    color:blue;
+    color:#7979e4;
     font-style: italic;
 }
 .underline{                                 /* CSS class for underlined text */
@@ -94,5 +94,5 @@ nav {
 }  
 .footer p {
     font-size: 10px;
-    
+
 }
